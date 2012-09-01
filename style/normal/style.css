@@ -1,0 +1,10 @@
+/*NormalGray,Bob*/
+.ecodebox{background: url(codebg.gif) #f7f7f7 repeat-y; border: #ccc 1px solid;  margin: 5px 3px 5px 15px;}
+	.ecodebox .copycode {color:#336699; font-size:12px; padding:2px 5px 2px 5px; }
+		.ecodebox .copycode:hover {color:#3366ff;}
+	.ecodebox .showcode_0{font-size:10px; padding:5px 5px 1px 35px; background-repeat:no-repeat;background-position:5px 3px; background-image: url(code_image.gif);}
+	.ecodebox .showcode_1{font-size:10px; padding:5px 5px 1px 35px; background:no-repeat 5px -13px url(code_image.gif);}
+	.ecodebox ol{list-style-type:decimal-leading-zero; font-family:Monaco,Consolas,"Lucida Console","Courier New"; font-size:13px; color:#666; line-height:1.7em; margin-left:43px;}
+		.ecodebox ol li {padding-left: 6px; padding-right: 3px;}
+		.ecodebox ol li:hover{background:#fff; color: #336699;}
+	.ecodebox .infobar {font-size:10px;}
