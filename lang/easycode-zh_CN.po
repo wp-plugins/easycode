@@ -1,0 +1,82 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: easycode\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-01 11:07+0800\n"
+"PO-Revision-Date: 2012-09-01 11:12+0800\n"
+"Last-Translator: xuxinhang <xuxinhang4567@126.com>\n"
+"Language-Team: bob\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;translate\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: CHINA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: easycode.php:27
+msgid "click to collapse"
+msgstr "点击 折叠/展开 代码"
+
+#: easycode.php:28
+msgid "COPY"
+msgstr "复制代码"
+
+#: easycode.php:29
+msgid " - Please Click"
+msgstr " « 点击"
+
+#: easycode.php:94
+msgid "Done"
+msgstr "完成"
+
+#: easycode.php:96
+msgid "Fail"
+msgstr "失败"
+
+#: easycode.php:192
+msgid "Default status"
+msgstr "默认状态"
+
+#: easycode.php:195
+msgid "Collapsing code"
+msgstr "折叠代码"
+
+#: easycode.php:196
+msgid "Do not collapse/ allow users to collapse"
+msgstr "不折叠 / 但开启折叠功能"
+
+#: easycode.php:197
+msgid "Do not collapse/ don't allow users to collapse"
+msgstr "不折叠 / 且不开启折叠功能"
+
+#: easycode.php:201
+msgid "line numbers"
+msgstr "行号"
+
+#: easycode.php:203
+msgid "none"
+msgstr "不显示"
+
+#: easycode.php:204
+msgid "1-bit number with no leading zeros"
+msgstr "无前导零的1位数字"
+
+#: easycode.php:205
+msgid "2-bit number with leading zeros"
+msgstr "有前导零的2位数字"
+
+#: easycode.php:209
+msgid "Style"
+msgstr "风格"
+
+#: easycode.php:233
+msgid "Preview"
+msgstr "风格预览"
+
+#: easycode.php:239
+msgid "Save"
+msgstr "保存设置"
+
