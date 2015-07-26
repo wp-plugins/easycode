@@ -1,0 +1,5 @@
+﻿.easycodebox {background: #f7f7f7 !important; border-color:#CCC !important;}
+.easycodebox .scrollbox .ecside {background:#ededed !important;}
+.easycodebox .headbar, .easycodebox .scrollbox .main {color:#666666 !important;}
+.easycodebox ol {}
+.easycodebox ol li:hover{background:#fff !important; color:#336699 !important;}

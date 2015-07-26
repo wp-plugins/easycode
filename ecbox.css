@@ -1,0 +1,22 @@
+/*CSS for the CodeBox*/
+.easycodebox {width:100%; margin:3px 1px !important; border:solid 1px;}
+	.easycodebox .headbar {line-height:1.7em; font-size:1.2em; padding-left: 50px; background:url(b3.gif) 15px center no-repeat; cursor:pointer;}
+		.easycodebox .headbar small {font-size:0.8em;}
+	.easycodebox .scrollbox {overflow:auto;}
+		.easycodebox .scrollbox table{width:100%; margin:0 !important; border:0 !important; background:none; color:inherit;}
+			.easycodebox .ecside {border:0 !important; padding:0 !important;min-width:43px !important; max-width: 43px !important;width:43px !important; overflow:hidden;}
+			.easycodebox .main {border:0 !important; padding:0 !important; background:none;}
+				.easycodebox .main ol {font-family:Monaco,Consolas,"Lucida Console","Courier New" !important; font-weight:normal !important; font-style:normal !important; font-size:1em !important; line-height:1.7em !important; margin:0 -43px 0 43px !important; position:relative; left:-43px; background:none;}
+					.easycodebox .main ol li{padding-left: 6px; padding-right: 3px;}
+					.easycodebox .main ol li:hover{}
+	.easycodebox.hidden .scrollbox {display:none;}
+
+/*FOR EidtCode*/
+.ec_textareabox {width:100%; height:100%; position:fixed; top:0px; left:0px; display:none; }
+	.ec_textareabox .bgb { width:100%; height:100%; position:fixed; top:0px; left:0px; background:#000; filter:alpha(opacity=75); opacity: 0.75; z-index:9998;}
+	.ec_textareabox .main {z-index:9999; width:100%; position:fixed; height:60%; top:20%; left:0px; text-align: center;}
+		.ec_textareabox small {color:white; font-size:0.9em; }
+		.ec_textareabox textarea {font-family:Monaco,Consolas,"Lucida Console","Courier New"; height:100%; width:100%; border:none;}
+
+
+

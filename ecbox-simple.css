@@ -1,0 +1,3 @@
+.easycodebox_simple {width:100%; background:#EEE;border:1px black solid ;}
+.easycodebox_simple .title {font-size:bolder; line-height:1.7em; font-size:1.2em !important; border-bottom:1px black dashed; padding-left:20px;}
+.easycodebox_simple .main {overflow:auto; font-family:Monaco,Consolas,"Lucida Console","Courier New" !important;font-size:1em !important; margin:5px;}

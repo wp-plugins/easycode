@@ -1,0 +1,4 @@
+.colorshow { padding:3px 15px; outline:1px #ccc solid;}
+table#inputcolor {width:400px; border:none; padding:5px;}
+table#inputcolor td{}
+table#inputcolor input[type=text]{width:70px;}
