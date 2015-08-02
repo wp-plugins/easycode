@@ -1,0 +1,115 @@
+/*CSS for the CodeBox*/
+.easycodebox {
+	width:100%;
+	margin:3px 1px !important;
+	border:solid 1px;
+}
+.easycodebox .headbar {
+	line-height:1.7em;
+	font-size:1.2em;
+	padding-left:3em;
+	background:url(b3.gif) 15px center no-repeat;
+	cursor:pointer;
+}
+.easycodebox .headbar .small {
+	font-size:0.8em;
+}
+.easycodebox .scrollbox {
+	overflow:auto;
+}
+.easycodebox .scrollbox table{
+	width:100%;
+	margin:0 !important;
+	border:0 !important;
+	background:none;
+	color:inherit;
+}
+.easycodebox .ecside {
+	line-height:0;
+	border:0 !important;
+	padding:0 !important;
+	min-width:3em !important;
+	max-width:3em !important;
+	width:3em !important;
+	overflow:hidden;
+	margin:0;
+}
+.easycodebox .main {
+	border:0 !important;
+	padding:0 !important;
+	background:none;
+	margin:0;
+}
+.easycodebox .main ol {
+	font-family:Monaco,Consolas,"Lucida Console","Courier New" !important;
+	font-weight:normal !important;
+	font-style:normal !important;
+	font-size:1em !important;
+	line-height:1.7em !important;
+	margin:0 -3em 0 0 !important;
+	padding:0 0 0 3em !important;
+	position:relative;
+	left:-3em;
+	background:none;
+}
+.easycodebox .main ol li{
+	padding:0 3px 0 6px;
+	margin:0;
+	text-align:left;
+}
+.easycodebox .main ol li:hover{}
+.easycodebox.hidecode .scrollbox {
+	display:none;
+}
+
+/*FOR EidtCode*/
+.ec_textareabox {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	display:none;
+ }
+.ec_textareabox .bgb {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	background:#000;
+	filter:alpha(opacity=75);
+	opacity: 0.75;
+	z-index:9998;
+}
+.ec_textareabox .main {
+	z-index:9999;
+	width:100%;
+	position:fixed;
+	height:60%;
+	top:20%;
+	left:0px;
+	text-align: center;
+}
+.ec_textareabox .message {
+	color:white;
+	font-size:0.9em;
+}
+.ec_textareabox .toolbar{
+	float:right;
+	margin:3px 10px;
+}
+.ec_textareabox .toolbar li {
+	color:white;
+	float:right;
+	width:20px;
+	height:20px;
+	background:none;
+}
+
+.ec_textareabox textarea {
+	font-family:Monaco,Consolas,"Lucida Console","Courier New";
+	height:100%;
+	width:100%;
+	border:none;
+}

@@ -1,0 +1,2 @@
+pre[class~="easycode;"] {background-image:url(codebox_button.gif); background-repeat:no-repeat;background-position:left top;}
+pre[class^="easycode;"],pre[class*="easycode;"] {background-image:url(codebox_button.gif); background-repeat:no-repeat;background-position:left top;}
